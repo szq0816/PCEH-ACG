@@ -16,7 +16,7 @@ from utils.calc_utils import calc_neighbor, calc_map_k
 from load_data import generate_dataset
 from utils.logger import get_logger, clear_logger
 
-dataset_root_path = "/home/lzx/dataSet/original/clip-hash-dataset"
+dataset_root_path = "./dataset"
 
 
 class TrainerAsym:
