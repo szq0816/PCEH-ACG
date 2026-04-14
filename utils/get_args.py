@@ -39,7 +39,7 @@ def get_args():
     parser.add_argument("--hyper-recon", type=float, default=0.005, help="weight of the recon loss.")
 
     # other
-    parser.add_argument("--clip-path", type=str, default="/home/lzx/dataSet/pre_train_model/ViT-B-32.pt", help="pretrained clip path.")
+    parser.add_argument("--clip-path", type=str, default="./ViT-B-32.pt", help="pretrained clip path.")
     parser.add_argument("--dataset", type=str, default="coco", help="choose from [coco, mirflickr, nuswide]")
     parser.add_argument("--query-num", type=int, default=5000)
     parser.add_argument("--train-num", type=int, default=10000)
